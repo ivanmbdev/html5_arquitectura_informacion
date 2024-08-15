@@ -6,10 +6,10 @@
 4 de Enero de 1912
 
 -->
-<title>Balonaweb</title>
 <html lang="es" dir="ltr">
   <head>
-    <title>Balonaweb</title>
+
+    <!-- Metadata básica -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -21,9 +21,36 @@
       content="Real Balompédica Linense, Balona, Fútbol, Segunda división, Grupo 4"
     />
     <meta name="author" content="Cruz Herrera" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="balonaicon.ico" />
+
+    <!-- Título del documento -->
+    <title>Balonaweb</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="\favicon.ico" />
+    <link rel="shortcut icon" type="image/svg" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Este texto es el título del documento">
+    <meta property="og:description" content="Ejemplo de HTML5 con mejoras">
+    <meta property="og:image" content="imagen_social.png">
+    <meta property="og:url" content="https://www.tusitio.com">
+
+    <!-- Twitter Card para redes sociales -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Este texto es el título del documento">
+    <meta name="twitter:description" content="Ejemplo de HTML5 con mejoras">
+    <meta name="twitter:image" content="imagen_social.png">
+
+    <!-- Meta tag para el color de la barra de herramientas en móviles -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Enlace a un archivo JavaScript externo -->
     <script src="script.js" defer></script>
+
+    <!-- Rutas de las fuentes usadas -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,20 +61,34 @@
   <body>
     <header>
       <h1><a href="index.html">Balonaweb</a></h1>
-      <img src="escudo_balona_580.png" alt="Logo Real Balompédica Linense" />
-      <nav></nav>
+      <img src="escudo_balona_580.png" alt="Logo Real Balompédica Linense" style="display: none;"/>
     </header>
     <main>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Jornadas</a></li>
+          <li><a href="#">Clasificación</a></li>
+          <li><a href="#">Calendario</a></li>
+          <li><a href="#">Plantilla</a></li>
+          <li><a href="#">Fichajes</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Historia e información</a></li>
+          <li><a href="#">Iniciar sesión / Registrarse</a></li>
+        </ul>
       <article>
         <section>
-          <h3></h3>
+          <h3>Título de la sección</h3>
+          <p>Texto de la primera sección</p>
         </section>
       </article>
-      <aside></aside>
+      <aside>
+        <p lang="es">Mensaje del aside</p>
+      </aside>
     </main>
     <footer>
       <p>Copyright &copy; 2024 - ivanmbdev</p>
-      <a href="politica_privacidad.html">Política de privacidad</a>
+      <a href="politica_privacidad.html">Política de Privacidad</a> | <a href="terminos_servicio.html">Términos de Servicio</a></p>
     </footer>
   </body>
 </html>
