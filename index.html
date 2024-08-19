@@ -8,7 +8,6 @@
 -->
 <html lang="es" dir="ltr">
   <head>
-
     <!-- Metadata básica -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,25 +26,50 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/Favicon/favicon.ico" />
-    <link rel="shortcut icon" type="image/svg" href="assets/images/escudo_balona.svg" />
-    <link rel="icon" type="image/png" sizes="16x16" src="assets/images/Favicon/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" src="assets/images/Favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="48x48" src="assets/images/Favicon/favicon-48x48.png" />
+    <link
+      rel="shortcut icon"
+      type="image/svg"
+      href="assets/images/escudo_balona.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/Favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="assets/images/Favicon/favicon-48x48.png"
+    />
 
     <!-- Open Graph para redes sociales -->
-    <meta property="og:title" content="Balonaweb">
-    <meta property="og:description" content="Sitio web de fans de la Real Balompédica Linense">
-    <meta property="og:image" content="assets/images/escudo_balona_580.png">
-    <meta property="og:url" content="https://www.balonaweb.es">
+    <meta property="og:title" content="Balonaweb" />
+    <meta
+      property="og:description"
+      content="Sitio web de fans de la Real Balompédica Linense"
+    />
+    <meta property="og:image" content="assets/images/escudo_balona_580.png" />
+    <meta property="og:url" content="https://www.balonaweb.es" />
 
     <!-- Twitter Card para redes sociales -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Balonaweb">
-    <meta name="twitter:description" content="Sitio web de fans de la Real Balompédica Linense">
-    <meta name="twitter:image" content="assets/images/escudo_balona_580.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Balonaweb" />
+    <meta
+      name="twitter:description"
+      content="Sitio web de fans de la Real Balompédica Linense"
+    />
+    <meta name="twitter:image" content="assets/images/escudo_balona_580.png" />
 
     <!-- Meta tag para el color de la barra de herramientas en móviles -->
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#" />
 
     <!-- Enlace a un archivo JavaScript externo -->
     <script src="script.js"></script>
@@ -55,42 +79,191 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
-      <!-- Hoja de estilos CSS -->
-       <link rel="stylesheet" href="style.css">
+    <!-- Hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.cs" />
   </head>
+
   <body>
     <header>
       <h1><a href="index.html">Balonaweb</a></h1>
+      <img
+        src="assets/images/fondo-cabecera.jpg"
+        alt="Imagen del estadio"
+        width="1000"
+        height="500"
+      />
     </header>
     <main>
+      <!-- Quiero hacer un menú desplegable y que el botón para desplegarlo sea el escudo del club, entiendo que esta función se desarrollará mediante scripts -->
       <nav role="navigation">
         <ul>
-          <li><a href="#"><img src="assets/images/escudo-580.png" width="50" height="50" alt="Escudo Real Balompédica Linense" /></a></li>
-          <li><a href="#"></a>Inicio</a></li>
-          <li><a href="#">Jornadas</a></li>
+          <h2>Menú</h2>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/images/escudo-580.png"
+                width="50"
+                height="50"
+                alt="Escudo Real Balompédica Linense"
+            /></a>
+          </li>
+          <li><a href="#">Inicio</a></li>
           <li><a href="#">Clasificación</a></li>
+          <li><a href="#">Jornadas</a></li>
           <li><a href="#">Calendario</a></li>
           <li><a href="#">Plantilla</a></li>
           <li><a href="#">Fichajes</a></li>
           <li><a href="#">Noticias</a></li>
-          <li><a href="#">Historia e información</a></li>
+          <li><a href="#">Historia</a></li>
+          <li><a href="#">Tienda</a></li>
+          <li>
+            <a href="#"><strong>Comprar entradas</strong></a>
+          </li>
           <li><a href="#">Iniciar sesión / Registrarse</a></li>
         </ul>
+      </nav>
+      <!-- Primer article, bienvenida y novedades -->
       <article>
+        <!-- Sección 1 - Bienvenida -->
         <section>
-          <h3>Título de sección 1</h3>
-          <p>Texto de sección 1</p>
+          <h3 class="welcometit">
+            Bienvenido a la página de fans de la
+            <strong>Real Balompédica Linense</strong>
+          </h3>
+          <p class="welcomepar">
+            Aquí encontrarás una familia unida por nuestro club, una web hecha
+            con el corazón
+            <em>-insertar corazón balono-</em>
+          </p>
+        </section>
+
+        <!-- Sección 2 - Novedades -->
+        <section>
+          <h3 class="newstit">Últimas novedades de la web</h3>
+          <p class="newspar">
+            Actualizamos sección noticias, ahora los usuarios pueden comentar
+          </p>
         </section>
       </article>
+
+      <!-- Segundo article, temas del club -->
+      <article>
+        <!-- Sección 3 - Top de goleadores -->
+        <section>
+          <h3 class="topscorerstit">Top 3 scorers</h3>
+          <p class="topscorerspar">Máximos goleadores de esta temporada:</p>
+          <ol>
+            <li>
+              <img
+                src="assets/images/escudo-580.png"
+                alt="Foto de Mejias"
+                width="50"
+                height="50"
+              />
+              Mejias
+            </li>
+            <li>
+              <img
+                src="foto_raulito.jpg"
+                alt="Foto de Raulito"
+                width="50"
+                height="50"
+              />
+              Raulito
+            </li>
+            <li>
+              <img
+                src="foto_aron.jpg"
+                alt="Foto de Aron"
+                width="50"
+                height="50"
+              />
+              Aron
+            </li>
+          </ol>
+        </section>
+
+        <!-- Sección 4 - Últimas incorporaciones al club -->
+        <section>
+          <h3 class="lastsigntit">Últimos fichajes</h3>
+          <figure>
+            <img
+              class="lastsignpic"
+              src="foto_luka.jpg"
+              alt="Foto de Luka Blanco"
+              width="100"
+              height="100"
+            />
+            <figcaption>Luka Blanco</figcaption>
+          </figure>
+          <p class="lastsignpar">
+            Se incorpora a la plantilla Luka Blanco, defensa procedente del
+            Sevilla Fútbol Club en calidad de cedido <a href="#">Leer más...</a>
+          </p>
+        </section>
+      </article>
+
+      <!-- Este "aside" irá fijo en la página y al hacer click en la imagen llevará al apartado en el que se podrá ver con mejor detalle los puntos, goles, etc con la tabla desglosada -->
       <aside>
-        <p lang="es">Esto es el aside</p>
+        <a href="#"><h3 lang="es">Clasificación</h3></a>
+        <a href="#"
+          ><img
+            src="assets/images/captura_clasificacion.jpg"
+            width="400"
+            height="400"
+            alt="Captura clasificación Grupo 4"
+        /></a>
       </aside>
+      <div class="contact-form">
+        <h3>Contacto</h3>
+        <p><strong>Todos los campos son obligatorios</strong></p>
+        <form action="process_form.php" method="post">
+          <select name="tema" required>
+            <option value="" hidden>Sobre qué quieres hablar</option>
+            <option value="club">El club</option>
+            <option value="donacion">Donaciones</option>
+            <option value="otra">Otro</option>
+          </select>
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre completo"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <textarea
+            name="message"
+            rows="5"
+            cols="5"
+            maxlength="300"
+            placeholder="Escribe aquí tu mensaje"
+            required
+          ></textarea>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
     </main>
     <footer>
+      <p>
+        <a href="#contactform">Contacto</a> -
+        <a href="mailto:ivanmbdev@gmail.com?subject=Asunto%20sobre%20Balonaweb"
+          >ivanmbdev@gmail.com</a
+        >
+      </p>
       <p>Copyright &copy; 2024 - ivanmbdev</p>
-      <a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+
+      <p>
+        <a href="#">Política de Privacidad</a> |
+        <a href="#">Términos de Servicio</a>
+      </p>
     </footer>
   </body>
 </html>
